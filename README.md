@@ -2,6 +2,8 @@
 
 Code that displays a json page and limits the number of requests per minute via IP
 
+This web page is available to everyone: https://limited-requests.onrender.com
+
 ### Working with the environment on Windows:
 create venv:
 ```bash
