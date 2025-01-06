@@ -44,7 +44,6 @@ async def get_main_page():
 async def request_limit(request: Request, call_next):
     user_ip = request.client.host
 
-    # Получаем или создаем счетчик для данного IP-адреса
     if user_ip not in ip_counters:
         ip_counters[user_ip] = ConnectionCounter(NUMBER_ALLOWED_REQUESTS, TIME_LIMIT)
 
