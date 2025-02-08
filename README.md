@@ -23,7 +23,8 @@ pip install -r requirements.txt
 
 start_server(local):
 ```bash
-uvicorn main:app --reload
+uvicorn scripts.main:app --reload
+
 ```
 
 go to web page if was local start:
