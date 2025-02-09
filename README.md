@@ -18,7 +18,7 @@ venv/Scripts/activate
 ### For start use code:
 download requirements:
 ```bash
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 ```
 
 start_server(local):
